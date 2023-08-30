@@ -1,0 +1,105 @@
+.project {
+    background-color: var(--body-color-sd);
+}
+.project__tl {
+    color: var(--text-color-sd);
+}
+.project__box{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 1.5rem;
+
+}
+.project__info{
+    background-color: var(--body-color);
+
+}
+.project__img {
+    object-fit: cover;
+    width: 100%;
+    height: 16rem;
+}
+.project__description{
+    padding: 1.25rem;
+}
+.project__title{
+    font-weight: var(--font-semi-bold);
+    margin-bottom: var(--mb-1);
+}
+.text__project{
+    color: rgb(55 65 81/1);
+    margin-bottom: var(--mb-1);
+}
+.project__technology {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: var(--mb-1);
+}
+.technology__details{
+    font-size: var(--smaller-font-size);
+    background-color: rgb(229 231 235/1);
+    color: rgb(55 65 81);
+    border-radius: 9999px;
+    font-weight: var(--font-semi-bold);
+    line-height: 1rem;
+    margin-right:calc(.5rem * 0);
+    margin-left: calc(.5rem * calc(1 - 0));
+    padding-bottom: var(--mb-0-25);
+    padding-top: var(--mb-0-25);
+    padding-left: var(--mb-0-5);
+    padding-right: var(--mb-0-5);
+    margin-bottom: var(--mb-0-5);
+}
+.project__button{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: var(--mb-1);
+}
+a {
+    color: inherit;
+    font-weight: var(--font-semi-bold);
+    padding-top: var(--mb-0-5);
+    padding-bottom: var(--mb-0-5);
+    padding-left: var(--mb-1);
+    padding-right: var(--mb-1);
+    align-items: center;
+    transition: all .3s ease;
+}
+a:hover{
+    transform: scale(1.1);
+}
+.project__demo{
+    color: var(--title-color);
+    border: 0 solid #e5e7eb;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.project__code{
+    color: var(--text-color-sd);
+    background-color: var(--button-color);
+    margin-left: var(--mb-1);
+}
+
+@media screen and (max-width: 992px) {
+    .project__box{
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+    .project__info{
+        max-width: 24rem;
+        gap: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+  
+@media screen and (max-width: 576px) {
+    
+}
+  
+  /* For small devices */
+@media screen and (max-width: 350px) {
+
+   
+    
+}
