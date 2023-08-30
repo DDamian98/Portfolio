@@ -1,0 +1,88 @@
+.contact__container {
+    grid-template-columns: repeat(3,minmax(0,1fr));
+}
+.contact__box {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1rem 1.25rem;
+}
+.contact__box:hover{
+    
+    border: 1px solid var(--button-color);
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);
+    transform: scale(1.05);
+    transition: all .3 ease;
+}
+
+.contact__social {
+    align-items: center;
+    grid-template-columns: repeat(2,max-content);
+}
+
+.contact__icon {
+    font-size: 1.5rem;
+    color: var(--button-color);
+    margin-bottom: var(--mb-0-5);
+}
+.contact__title {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+.contact__subtitle {
+    float: left;
+    color: var(--title-color);
+    font-size: var(--tiny-font-size);
+}
+
+/* Different devices */
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .contact__container{
+        grid-template-columns: 1fr;
+        padding-left: 6rem;
+        padding-right: 6rem;
+
+    }
+    .contact__box {
+        gap: 2rem;
+    }
+    .contact__social {
+        justify-content: center;
+    }
+    .contact__subtitle {
+        float: none;
+        color: var(--title-color);
+        font-size: var(--tiny-font-size);
+    }
+    
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .contact__container{
+        padding-left: var(--mb-2);
+        padding-right: var(--mb-2);
+    }
+ 
+  }
+  
+  @media screen and (max-width: 576px) {
+    .contact__container{
+        padding-left: var(--mb-3);
+        padding-right: var(--mb-3);
+    }
+
+
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .contact__container{
+        padding-left: var(--mb-3);
+        padding-right: var(--mb-3);
+    }
+   
+  }
