@@ -15,7 +15,7 @@ const Contact = () =>{
                     <span className="contact__subtitle">Mantengámonos en contacto.</span>
                 </a>
 
-                <a href="https://github.com/DDamian98" target="_blank" className="contact__box">
+                <a href="https://github.com/DDamian98" target="_blank" className="contact__box" rel="noreferrer">
                     <div className="contact__social grid">
                         <i class='uil uil-github-alt contact__icon'></i>
                         <h3 className="contact__title">GitHub</h3>
@@ -24,12 +24,19 @@ const Contact = () =>{
                 </a>
                 
 
-                <a href="https://github.com/DDamian98" target="_blank" className="contact__box">
+                <a href="https://github.com/DDamian98" target="_blank" className="contact__box" rel="noreferrer">
                     <div className="contact__social grid">
                         <i class='uil uil-linkedin-alt contact__icon' ></i>
                         <h3 className="contact__title">LinkedIn</h3>
                     </div>
                 <span className="contact__subtitle">Conectémonos.</span>
+                </a>
+                <a href="https://wa.me/51931784733" target="_blank" className="contact__box" rel="noreferrer">
+                    <div className="contact__social grid">
+                        <i class='uil uil-whatsapp contact__icon' ></i>
+                        <h3 className="contact__title">WhatsApp</h3>
+                    </div>
+                <span className="contact__subtitle">Hablemos por WhatsApp.</span>
                 </a>
             </div>
         </section>
