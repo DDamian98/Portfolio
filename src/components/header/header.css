@@ -23,6 +23,13 @@
     color: var(--text-color-sd);
     font-weight: var(--font-medium);
 }
+.nav__logo{
+    display: flex;
+}
+.nav__logo img{
+    height: 25px;
+    width: 25px;
+}
 
 .nav__list {
     display: flex;
