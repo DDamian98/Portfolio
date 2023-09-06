@@ -1,5 +1,5 @@
 .contact__container {
-    grid-template-columns: repeat(3,minmax(0,1fr));
+    grid-template-columns: repeat(4,minmax(0,1fr));
 }
 .contact__box {
     background-color: var(--container-color);
