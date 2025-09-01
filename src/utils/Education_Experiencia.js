@@ -5,7 +5,19 @@ const Education_Experiencie = [
     Company: "EduMark Agencia Educativa",
     Period: "03/2024 - Actualidad",
   },
-  
+  {
+    type: "Experiencie",
+    title: "Desarrollador de Software",
+    Company: "Instituciones Fiscalizadas TOQUEPALACUJONE",
+    Period: "07/2025 - 09/2025",
+  },
+  {
+    type: "Experiencie",
+    title: "Desarrollador de Software",
+    Company: "Municipalidad Provincial de Caravelí",
+    Period: "06/2024 - 08/2024",
+  },
+
   {
     type: "Experiencie",
     title: "Becario",
